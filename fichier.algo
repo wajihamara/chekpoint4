@@ -1,0 +1,36 @@
+ALGORITHM phrase
+VAR
+i:INTEGER:=0;
+nbmot:integer:=0;
+nbvoy:INTEGER:=0;
+long:integer:=ph.lenght;
+voyelle:array:=[a,o,i,e,u]
+BEGIN
+
+while(i<=ph.length){
+    if ph[i]=" "{
+    nbmot=nbmot+1}
+    else 
+    if ph[i]=voyelle[i]{
+        nbvoy=nbvoy+1
+        
+    
+    i=i+1
+
+return ("le nombre de mot est" " " nbmot)
+return ("le nombre de voyel est " " " nbvoy)
+return ("la longeur de phrase est" " " long)
+END
+2 eme methode 
+
+
+ALGORITH
+VAR
+     i:integer:=0;
+    nubmot:=integer:=0
+BEGIN
+    set_instructions
+END
+
+
+
